@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::before{
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    
+    
+    background-image: linear-gradient( 115deg, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.659) ), url("cafee.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.form-entry{
+    width: 400px;
+    background: #350000;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whithe;
+    box-shadow: 7px 8px 4px rgb(72, 72, 72);
+}
+
+.form-entry h4{
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.botons{
+    width: 100%;
+    background-color: #f8e5e5;
+    padding: 7px;
+    border-radius: 6px;
+    margin-bottom: 13px;
+    border: 1px solid #ff2d2d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.form-entry p{
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.form-entry a {
+    color: white;
+    text-decoration: none;
+}
+
+.form-entry a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.form-entry .submit-button:hover{
+    
+    background-image: linear-gradient( 115deg, rgba(255, 255, 255, 0.922), rgba(255, 255, 255, 0.913) ), url("cafee.jpg");
+    color: black;
+    border: 2px solid #000000;
+    margin: 14px 0;
+    
+}
+.form-group{
+    text-align: center;
+}
+
+.form-entry .submit-button{
+    position: relative;
+    width: 50%;
+    background-image: linear-gradient( 115deg, rgba(0, 0, 0, 0.922), rgba(0, 0, 0, 0.913) ), url("cafee.jpg");
+    border: none;
+    padding: 6px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s linear 0.2s;
+    
+}
+
+.controls{
+    color: white;
+    font-size: 20px;
+}
+
+#siguiente{
+    display: flex;
+    background-image: linear-gradient( 115deg, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.659) ), url("cafee.jpg");
+    
+    color: rgb(0, 0, 0);
+    font-size: 24px;  
+    
+    margin: auto;
+
+    border-radius: 7px;
+    padding: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
+    width: 50%;
+}
+
+
+
