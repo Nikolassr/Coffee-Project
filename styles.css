@@ -14,7 +14,7 @@ body::before{
     z-index: -1;
     
     
-    background-image: linear-gradient( 115deg, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.659) ), url("cafee.jpg");
+    background-image: linear-gradient( 115deg, rgba(255, 255, 255, 0.664), rgba(255, 255, 255, 0.6640) ), url("./Multimedia/Fondo1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -83,7 +83,7 @@ body::before{
 .form-entry .submit-button{
     position: relative;
     width: 50%;
-    background-image: linear-gradient( 115deg, rgba(0, 0, 0, 0.922), rgba(0, 0, 0, 0.913) ), url("cafee.jpg");
+    background-image: linear-gradient( 115deg, rgba(0, 0, 0, 0.922), rgba(0, 0, 0, 0.913) ), url("./Multimedia/Fondo1.jpg");
     border: none;
     padding: 6px;
     color: white;

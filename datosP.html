@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Datos Personales</title>
+    <link rel="stylesheet" href="datosP.css">
+</head>
+<body>
+    <section class="contenedor">
+        <div class="caja">
+            <h4>INFORMACION PERSONAL</h4>
+            <form id="survey-form">
+
+                <div class="controls">
+                    <label class="contLabel" id="nombre-label" for="name">Ingrese su nombre completo</label>
+                    <input class="botons" type="text" name="nombre" id="nombre" class="form-control" placeholder="Nombre Completo" required>
+                </div>
+                
+                <div class="controls">
+                    <label class="contLabel" id="cedula-label" for="name">Ingrese su cedula</label>
+                    <input class="botons" type="number" name="Factor" id="Factor" class="form-control" placeholder="Número cédula" required>
+                </div>
+
+                <div class="conTerminos">
+                <p>Estoy de acuerdo con <a class="terminos" href="#">Terminos y Condiciones</a></p>
+                </div>
+
+                <div class="enviarFor">
+                <button type="submit" id="submit" class="submit-button">
+                    Enviar
+                </button>
+                </div>
+
+                
+                <a href="index.html" id="siguiente" class="siguiente">
+                    Siguiente
+                </a>
+                
+                
+            </form>
+        </div>
+    </section>
+</body>
+</html>
